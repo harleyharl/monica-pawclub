@@ -1,120 +1,151 @@
+
+
 .color-primary-0 {background-color: #5995A7 }	/* TURQUOISE */
 .color-primary-1 { background-color: #4B8591 } /* TURQUOISE SHADOWS */
 .color-primary-2 { background-color: #A8CEE4 } /* LIGHT BLUE */
 .color-primary-3 { background-color: #E0C751 } /* YELLOW */
 .color-primary-4 { color: #F4FBFE } /* WHITE */
 
-/*
-html body main header h1{
-  margin: 0;
-  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
-  font-size: 10rem;
-  font-weight: 900;
-  line-height: 1.5;
-  color: #212529;
-  text-align: left;
-  background-color: #64A8BF
-} */
+/* Eugene's code */
 
-/* html body header.bg-light{
-  margin: 0;
-  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
-  font-size: 1rem;
-  font-weight: 400;
-  line-height: 1.5;
-  color: #212529;
-  text-align: left;
-  background-color: #64A8BF
-} */
-
-header{
-
-    background-color: #A8CEE4;
-    background-size: cover;
-    background-position: center top;
+h1,h2,h3,h4,h5,p,a{
+    margin: 0;
+    padding: 0;
 }
+
 
 h1{
-    background-color: #A8CEE4;
+    color: #F4FBFE;
     font-family: 'Catamaran', sans-serif;
-    font-size: 800%;
+    font-size: 60px;
+    text-align: center;
+    
 }
 
+h2{
+    color: #E0C751;
+    font-family: 'Catamaran', sans-serif;
+    font-size: 28px;
+    text-align: center;
+}
+
+h3{
+    color: black;
+    font-family: 'Catamaran', sans-serif;
+    font-size: 24px;
+    text-align: center;
+}
+
+h3{
+    color: black;
+    font-family: 'Catamaran', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
 
 p{
-    margin-top: 20px;
-}
-
-.main-content{
-
-    display: flex;
-    justify-content: center;
-    flex-direction:column;
-}
-
-section:nth-child(1){
-    background-color: #5995A7;
-    padding-top: 80px;
-    padding-bottom: 80px;
-}
-
-section:nth-child(2){
-    background-color: #64A8BF;
-    padding-top: 80px;
-    padding-bottom: 80px;
-    background-color: #e7e7e7;
-}
-
-.about-us {
-    background-color: #64A8BF;
-    display:block;
-}
-
-header div.index {
-    background-color: #64A8BF;
-    /* display:block; */
-    height: 19em;
-    width: 40em;
-}
-
-.about-us img{
-    background-color: #64A8BF;
-    border-radius:50%;
-    width: 110px;
-    padding-top: 0;
-}
-
-footer{
-
-    background-color: #64A8BF;
-    height: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction:row;
-}
-
-footer a{
-
     color: black;
+    font-family: 'Catamaran', sans-serif;
+    font-size: 16px;
+    text-align: center;
+}
+
+nav a{
+    color: #F4FBFE;
     text-decoration: none;
-    font-weight: 400;
 }
 
-footer a:hover{
-
-    color: white;
+nav a:active{
+    color:#E0C751;
     text-decoration: none;
 }
 
-header a {
-
-    color: #F4FBFE
-
+nav a:hover{
+    color: #E0C751;
+    text-decoration: none;
 }
 
-header a:hover {
-
-    color: #E0C751
-
+.nav-container{
+    position:absolute;
+    width: 100%;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
 }
+
+.nav-container nav{
+    position: fixed;
+    width: 400px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.section:nth-child(1) .fp-tableCell img{
+    vertical-align: bottom;
+}
+
+.about-container{
+    width: 600px;
+    margin: 0 auto;
+}
+
+.section:nth-child(2) p{
+    color: black;
+    font-family: 'Catamaran', sans-serif;
+    font-size: 16px;
+    text-align: center;
+}
+
+.services-container{
+    display: flex;
+    width: 800px;
+    flex-wrap: wrap;
+    flex-direction:row;
+    margin: 0 auto;
+}
+
+.service{
+    flex: 0 0 33%;
+}
+
+.section:nth-child(3) p{
+    color: black;
+    font-family: 'Catamaran', sans-serif;
+    font-size: 12px;
+    text-align: center;
+}
+
+@media only screen and (max-width: 800px) {
+    .about-container{
+        width: 400px;
+    }
+    .services-container{
+        width: 570px;
+    }
+    .service h4{
+        font-size: 20px;
+    }
+    .section:nth-child(3) p{
+        font-size: 11px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .about-container{
+        width: 200px;
+    }
+    .services-container{
+        width: 300px;
+    }
+    .service h4{
+        font-size: 18px;
+    }
+    .section:nth-child(3) p{
+        font-size: 11px;
+    }
+}
+
+
+
+
