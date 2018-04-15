@@ -13,7 +13,8 @@ img{
   margin-left: auto;
   margin-right: auto;
   margin-top: 1.5em;
-  width: 4%;
+  margin-bottom: 0;
+  width: 20%;
 }
 
 h1,h2,h3,h4,h5,p,a{
@@ -25,7 +26,7 @@ h1,h2,h3,h4,h5,p,a{
 h1{
     color: #F4FBFE;
     font-family: 'Catamaran', sans-serif;
-    font-size: 60px;
+    font-size: 100px;
     text-align: center;
 
 }
@@ -33,7 +34,7 @@ h1{
 h2{
     color: #E0C751;
     font-family: 'Catamaran', sans-serif;
-    font-size: 28px;
+    font-size: 19px;
     text-align: center;
 }
 
@@ -87,6 +88,9 @@ nav a:hover{
     display: flex;
     justify-content: center;
     padding-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+
 }
 
 .nav-container nav{
