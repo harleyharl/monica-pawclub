@@ -8,14 +8,47 @@
 
 /* Eugene's code */
 
-img{
+/* img{
   display: block;
   margin-left: auto;
   margin-right: auto;
   margin-top: 1.5em;
   margin-bottom: 0;
   width: 20%;
+} */
+
+img {
+  display: inline-block;
+  margin: auto;
+  width: 5%;
 }
+
+#dog1 {
+
+  left: 30px;
+
+}
+
+#dog2 {
+
+}
+
+#dog3 {
+
+}
+
+#dog4 {
+
+}
+
+#dog5 {
+
+}
+
+#dog6 {
+
+}
+
 
 h1,h2,h3,h4,h5,p,a{
     margin: 0;
@@ -107,7 +140,7 @@ nav a:hover{
 }
 
 .about-container{
-    width: 800px;
+    width: 650px;
     margin: 0 auto;
 }
 
@@ -118,16 +151,16 @@ nav a:hover{
 .section:nth-child(2) p{
     color: black;
     font-family: 'Montserrat', sans-serif;
-    font-size: 16px;
+    font-size: 13px;
     text-align: center;
 }
 
 .description{
     width: 800px;
     margin: 0 auto !important;
-    margin-top: 30px !important;
+    margin-top: 10px !important;
     font-family: 'Montserrat', sans-serif !important;
-    font-size: 16px !important;
+    font-size: 12px !important;
 }
 
 .services-container{
@@ -144,12 +177,12 @@ nav a:hover{
     margin-top: 10px;
     margin-bottom: 10px;
     padding: 10px 0;
-    
+
 }
 
 .service p{
     margin-top: 5px;
-    font-size: 14px;
+    font-size: 12px;
     line-height: 22px;
     padding: 0 10px;
     text-align: left !important;
@@ -158,6 +191,11 @@ nav a:hover{
 .service h4{
     padding: 5px 10px;
     text-align: left !important;
+}
+
+#services {
+  padding: 10px;
+
 }
 
 .contact-container{
